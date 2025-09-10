@@ -1,4 +1,4 @@
-public with sharing class JwtVerifierServiceSH256
+public with sharing class JwtVerifierServiceRSASHA256
 {
 	@AuraEnabled(cacheable=false)
 	public static Boolean verifyJwt(String jwt)
